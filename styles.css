@@ -1,0 +1,76 @@
+body{
+  font-size: 25px;
+}
+.header h1{
+  text-align: center;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+}
+.navbar a{
+  color: black;
+}
+.main{
+
+}
+.mission{
+  height: 500px;
+  display: flex;
+  align-items: center;
+  background-image: url(https://codecademy-content.s3.amazonaws.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg);
+}
+.content{
+  width: 100%;
+  background-color: white;
+}
+h2,h3,h4,h5,p{
+  text-align: center;
+}
+.companies{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+.company{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.company img{
+  height:200px;
+  width:200px;
+  margin: 10px;
+  border-radius: 30px;
+}
+.team{
+  background-image: url(https://codecademy-content.s3.amazonaws.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg);
+  opacity:0.8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.teammate {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 210px; 
+}
+.teammate img{
+  width:200px;
+  height: 300px;
+  margin-top:20px;
+  border-radius: 30px;
+}
+.teammate h3,p{
+  color: white;
+}
+#up_arrow{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  right:0;
+  border-radius:50%;
+  z-index: 2;
+}
